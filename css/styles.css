@@ -1,0 +1,50 @@
+/* Global Style Rules */
+
+html{
+    scroll-behavior: smooth;
+    padding: 0em;
+    margin: 0em;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', Arial, Tahoma, sans-serif;
+    background-color: 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #9697C0;
+    padding: .5em;
+}
+
+h1{
+    font-size: 3em;
+    padding: 0em;
+    margin: auto;
+}
+
+nav ul{
+    padding-right: 1em;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+    padding: .5em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer{
+    background-color: #68C1C9;
+}
