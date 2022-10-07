@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-        
+    margin: auto;
 }
 
 .flex-container{
@@ -63,8 +63,19 @@ nav li a{
 
 .bio{
     padding: 0em 25%;
-    
 }
+
+.bio p{
+    padding: 0em 3em;
+}
+
+.bio img{
+    width: 45%;
+    border-radius: 60%;
+    margin: auto;
+    padding: 0em 5em;
+}
+
 footer{
     background-color: #68C1C9;
 }
