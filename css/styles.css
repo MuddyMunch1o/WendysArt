@@ -25,6 +25,9 @@ h2{
 
 }
 
+header img{
+    width:5%
+}
 .flex-container{
     display: flex;
     flex-basis: row;
@@ -37,7 +40,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #9697C0;
+    background-color: #506bb3;
     padding: .5em;
 }
 
@@ -68,3 +71,26 @@ nav li a{
 footer{
     background-color: #68C1C9;
 }
+
+.parallax {
+
+    background-image: url("img_parallax.jpg");
+  
+    min-height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.gallery img{
+    width:20%;
+}
+
+.filterDiv {
+    float: left;
+    line-height: 100px;
+    text-align: left;
+    margin: 2px;
+  }
