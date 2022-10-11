@@ -12,7 +12,7 @@ body{
     width: 100%;
     font-size: 18px;
     font-family: 'PT Sans Narrow', Arial, Tahoma, sans-serif;
-    background-color: ;
+    background-color: white;
 }
 
 h1{
@@ -60,9 +60,7 @@ nav li a{
     color: #000000;
 }
 
-.search_bar{
-    
-}
+
 
 .bio{
     padding: 0em 25%;
