@@ -101,12 +101,12 @@ footer{
 
 
 .filterDiv {
-    width: 20%;
+    width: 19%;
   float: left;
   text-align: center;
   display: none; /* Hidden by default */
-    margin: none;
-    padding: 0em;
+    margin: 0em;
+    padding: 5px;
 }
 
 /* The "show" class is added to the filtered elements */
