@@ -13,6 +13,9 @@ body{
     font-size: 18px;
     font-family: 'PT Sans Narrow', Arial, Tahoma, sans-serif;
     background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -81,6 +84,7 @@ nav li a{
 footer{
     background-color: #68C1C9;
     text-align: center;
+    margin-top: auto;
 }
 
 .parallax {
