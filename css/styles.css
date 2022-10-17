@@ -96,15 +96,13 @@ footer{
 .gallery img{
     width: 100%;
     border-radius: 25px;
-    padding: 10px;
 }
 
 
 .filterDiv {
-    width: 19%;
   float: left;
   text-align: center;
-  display: none; /* Hidden by default */
+  display: none;
     margin: 0em;
     padding: 5px;
 }
@@ -132,4 +130,11 @@ footer{
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+.one_two_three_four {
+    display: flex;
+    width: 20%;
+    flex-direction:column;
+    float:left;
 }
