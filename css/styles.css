@@ -20,8 +20,8 @@ body{
 
 h1{
     font-size: 3em;
-    padding: 0em;
     margin: auto;
+    text-align: center;
 }
 
 h2{
@@ -29,7 +29,10 @@ h2{
 }
 
 header img{
-    width:5%
+    width:5em;
+    padding-left: 3em;
+    padding-right: 5em;
+    max-width: 20em;
 }
 .flex-container{
     display: flex;
@@ -42,14 +45,14 @@ header img{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: #506bb3;
     padding: .5em;
 }
 
 
 nav ul{
-    padding: 0em 3em;
+    padding-right: 3em;
+    max-width: 100%;
 }
 
 nav li{
@@ -78,7 +81,7 @@ nav li a{
     width: 45%;
     border-radius: 60%;
     margin: auto;
-    padding: 0em 5em;
+    padding: 1em 5em;
 }
 
 footer{
@@ -143,4 +146,10 @@ footer{
     width: 20%;
     flex-direction:column;
     float:left;
+}
+
+.upload{
+    text-align: center;
+    padding: 2em;
+    margin: 5em 2em;
 }
