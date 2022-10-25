@@ -139,7 +139,7 @@ footer{
   color: white;
 }
 
-.one_two_three_four {
+.img_colums {
     display: flex;
     width: 20%;
     flex-direction:column;
