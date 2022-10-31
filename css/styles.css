@@ -85,15 +85,25 @@ nav li a{
 footer{
     background-color: #68C1C9;
     text-align: center;
+    align-content: space-around;
     margin-top: auto;
 }
 
-.parallax {
+footer img{
+    width: 3em;
+}
 
+.email{
+    font-size: 1.5em;
+    margin: 8em 2em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.parallax {
     background-image: url("logo.jpg");
-  
     min-height: 500px;
-  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
