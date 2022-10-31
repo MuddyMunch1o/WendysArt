@@ -21,11 +21,11 @@
             </nav>
         </header>
         <div class="upload">
-        <form enctype="multipart/form-data" action="uploader.php" method="post">
-            <input type="hidden" name="MAX_FILE_SIZE" value="100000000" />
-            Choose a file to upload: <input name="uploadedfile" type="file" /><br>
-            <input type="submit" value="Upload File"/>
-        </form>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+        Upload a File:
+        <input type="file" name="the_file" id="fileToUpload">
+        <input type="submit" name="submit" value="Start Upload">
+            </form>
         </div>
         
     </body>
