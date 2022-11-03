@@ -10,6 +10,9 @@ function filterSelection(c) {
   }
 }
 
+
+
+
 // Show filtered elements
 function w3AddClass(element, name) {
   var i, arr1, arr2;
@@ -35,24 +38,14 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-
 var image_object = new Object;
 var column_object = new Object;
 var image_elements = new Object;
+var counter = 0;
 
 image_object.image_array = [
-	["path/to/image1.file", "clocks"],
-	["path/to/image2.file", "murals"],
+	  ["path/to/image1.file", "clocks"],
+	  ["path/to/image2.file", "murals"],
     ["path/to/image3.file", "clocks"],
     ["path/to/image4.file", "murals"],
     ["path/to/image5.file", "paintings"],
@@ -62,7 +55,7 @@ image_object.image_array = [
     ["path/to/image9.file", "portrait"],
     ["path/to/image10.file", "portrait"],
     ["path/to/image11.file", "clocks"],
-	["path/to/image12.file", "murals"],
+	  ["path/to/image12.file", "murals"],
     ["path/to/image13.file", "clocks"],
     ["path/to/image14.file", "murals"],
     ["path/to/image15.file", "portrait"],
@@ -72,7 +65,7 @@ image_object.image_array = [
     ["path/to/image19.file", "portrait"],
     ["path/to/image20.file", "portrait"],
     ["path/to/image21.file", "clocks"],
-	["path/to/image22.file", "murals"],
+	  ["path/to/image22.file", "murals"],
     ["path/to/image23.file", "clocks"],
     ["path/to/image24.file", "murals"],
     ["path/to/image25.file", "portrait"],
@@ -82,7 +75,7 @@ image_object.image_array = [
     ["path/to/image29.file", "portrait"],
     ["path/to/image30.file", "portrait"],
     ["path/to/image31.file", "clocks"],
-	["path/to/image32.file", "murals"],
+	  ["path/to/image32.file", "murals"],
     ["path/to/image33.file", "clocks"],
     ["path/to/image34.file", "murals"],
     ["path/to/image35.file", "portrait"],
@@ -92,7 +85,7 @@ image_object.image_array = [
     ["path/to/image39.file", "portrait"],
     ["path/to/image40.file", "portrait"],
     ["path/to/image41.file", "clocks"],
-	["path/to/image42.file", "murals"],
+	  ["path/to/image42.file", "murals"],
     ["path/to/image43.file", "clocks"],
     ["path/to/image44.file", "murals"],
     ["path/to/image45.file", "portrait"],
@@ -107,7 +100,7 @@ image_object.image_array = [
 ];
 
 function sort() {
-	for () {
+	for (i = 0; i < 5; i++) {
 		document.getElementById("col" + i).innerHTML = null;
 	}
 //ADD RESPECTIVE ID TO COLUMNS!!! for example, col0, col1, col2, col3, col4
@@ -116,7 +109,6 @@ function sort() {
 	}
 	
 	var items = image_object.image_array.length;
-	var counter = 0;
 	
 	for (i = 0; i < (items - (items % 5)) / 5; i++) {
 		for (x = 0; x < 5; x++) {
@@ -138,3 +130,15 @@ function create_elm() {
 }
 
 sort();
+
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
