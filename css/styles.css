@@ -45,7 +45,7 @@ header img{
 header{
     display: flex;
     flex-direction: row;
-    background-color: #506bb3;
+    background-color: #55ace9;
     padding: .5em;
 }
 
@@ -83,7 +83,7 @@ nav li a{
 }
 
 footer{
-    background-color: #68C1C9;
+    background-color: #55ace9;
     text-align: center;
     align-content: space-around;
     margin-top: auto;
