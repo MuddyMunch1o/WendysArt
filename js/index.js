@@ -44,7 +44,7 @@ var image_elements = new Object;
 var counter = 0;
 
 image_object.image_array = [
-	["path/to/img_1.file", "clocks"],
+	["path/to/img_1.jpg", "clocks"],
 	["path/to/image2.file", "murals"],
     ["path/to/image3.file", "clocks"],
     ["path/to/image4.file", "murals"],
